@@ -1,5 +1,9 @@
 <template>
     <div>
-        here is where you can contact me
+        <div class="content">
+        
+ here is where you can contact me
+        </div>
+       
     </div>
 </template>

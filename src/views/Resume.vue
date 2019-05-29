@@ -1,5 +1,8 @@
 <template>
     <div>
-        this is my resume
+        <div class="content">
+            resume
+        </div>
+        
     </div>
 </template>
