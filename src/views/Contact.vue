@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="content">
+        <div class="cont">
         
  here is where you can contact me
         </div>
