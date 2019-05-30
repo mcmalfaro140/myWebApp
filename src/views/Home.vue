@@ -23,7 +23,7 @@ body{
 }
 .content{
   background-color: white;
-  margin-block-start: -10%;
+  margin-block-start: -9%;
   margin-left: 4%;
   margin-right: 4%;
   height: 650px;

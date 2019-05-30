@@ -29,6 +29,10 @@ export default {
 }
 .menu{
     text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: #686868;
+
 }
 
 .logo {
@@ -37,8 +41,8 @@ export default {
 }
 .header{
     text-decoration: none;
-    color: black;
-    vertical-align:450%;
+    color: white;
+    vertical-align:420%;
     font-size: 195%;
     font-weight: bolder;
     padding: 4%
