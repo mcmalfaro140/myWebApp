@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <Menu />
-    <router-view/>
+      <Menu />
+      <div class="container">
+        <router-view/>
+      </div>
+    
   </div>
 </template>
 
@@ -17,12 +20,26 @@ export default {
 
 
 <style>
-/* #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
+
+html {
+  background-image: url('./assets/back.jpg');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+body {
+  background:rgba(0, 0, 0, 0.342); /* applies a 50% transparent white background */
+  height: 100vh;
+  background-attachment: fixed;
+  
+}
+@media only screen and (max-width: 767px) {
+  body{
+    height: 200vh;
+    
+  }
+}
 </style>

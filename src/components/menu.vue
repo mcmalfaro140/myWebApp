@@ -1,15 +1,21 @@
 <template>
-    <div>
-        <div class="blackBar"/>
-        <div class="menu" >
-            <router-link to="/" class="header">Home</router-link> 
-            <router-link to="/portfolio" class="header">Portfolio</router-link> 
-            <img class="logo" alt="My logo" src="../assets/Logo.png">
-            <router-link to="/resume" class="header">Resume</router-link> 
-            <router-link to="/contact" class="header">Contact Me</router-link> 
-        </div>
-        
-        
+    <div class="menuBody">
+       
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <router-link to="/" class="nav-link txt">Home</router-link> 
+            </li>
+            <li class="nav-item">
+                <router-link to="/portfolio" class="nav-link txt">Portfolio</router-link> 
+            </li>
+            <li class="nav-item">
+                <router-link to="/resume" class="nav-link txt">Resume</router-link> 
+            </li>
+            <li class="nav-item">
+                <router-link to="/contact" class="nav-link txt">Contact</router-link> 
+            </li>
+        </ul>
+         
         
     </div>
 </template>
@@ -21,31 +27,30 @@ export default {
 </script>
 
 <style scoped>
-.blackBar{
-    border-top: 15px solid black;
-    margin-left: 4%;
-    margin-right: 4%
-
-}
-.menu{
-    text-align: center;
-    margin-left: 4%;
-    margin-right: 4%;
-    background-color: #686868;
-
-}
-
-.logo {
-    width: 15%;
-
-}
-.header{
+.menuBody{
     text-decoration: none;
-    color: white;
-    vertical-align:420%;
-    font-size: 195%;
-    font-weight: bolder;
-    padding: 4%
-
+    margin-right: 8%;
+    padding: 2%;
+    font-size: 175%;
+    
+    
 }
+.txt{
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+  .menuBody{
+    text-decoration: none;
+    margin-right: 8%;
+    padding: 3%;
+    font-size: 140%;
+    
+  }
+  .txt{
+    font-weight: 500;   
+  }
+}
+
+
 </style>
