@@ -6,7 +6,8 @@
     <div class="text">I am an enthusiastic junior web developer</div>
     <div class="text">ready to help you achieve your goals</div>
     <div class="text">in a fast and efficient manner.</div>
-    <button type="button btn" class="btn btn-primary btn-lg btn-block ">Download my Resume</button>
+    <a class="btn btn-primary btn-lg btn-block " href="../myResume.pdf" download="MisaelCorveraResume.pdf">Download my Resume</a>
+    <br>
     
   </div>
 </template>

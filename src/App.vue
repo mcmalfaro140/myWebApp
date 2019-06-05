@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="trans">
       <Menu />
       <div class="container">
         <router-view/>
@@ -21,25 +21,44 @@ export default {
 
 <style>
 
-html {
+/* html {
+  
   background-image: url('./assets/back.jpg');
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
   height: 100vh;
   background-attachment: fixed;
+  
+ 
 }
 
 body {
-  background:rgba(0, 0, 0, 0.342); /* applies a 50% transparent white background */
+  background:rgba(0, 0, 0, 0.479); 
+  height:max-content;
+ 
+} */
+body{
+  background-image: url('./assets/back1.jpg');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
   height: 100vh;
   background-attachment: fixed;
-  
+ 
 }
 @media only screen and (max-width: 767px) {
   body{
-    height: 200vh;
+    
     
   }
 }
+@media only screen and (max-width: 1920px) {
+  body{
+     height: 100vh;
+    
+  }
+}
+
+
 </style>
