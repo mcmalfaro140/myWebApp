@@ -1,4 +1,5 @@
 <template>
+<div class="wrapper">
   <div id="app" class="trans">
       <Menu />
       <div class="container">
@@ -6,6 +7,7 @@
       </div>
     
   </div>
+</div>
 </template>
 
 <script>
@@ -47,18 +49,11 @@ body{
   background-attachment: fixed;
  
 }
-@media only screen and (max-width: 767px) {
-  body{
-    
-    
-  }
+.wrapper{
+  width: 100%;
 }
-@media only screen and (max-width: 1920px) {
-  body{
-     height: 100vh;
-    
-  }
+.container{
+  margin-top: 3%
 }
-
 
 </style>

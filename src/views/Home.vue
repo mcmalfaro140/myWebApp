@@ -53,11 +53,20 @@ export default {
   width: 45%;
     
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .myPic{
-    width: 40%;
-    margin-left: 30%;
+    width: 60%;
+    margin-left: 20%;
     margin-top: 5%;
+  }
+  
+  .name{
+    font-size: 200%
+  }
+  .btn{
+    margin-top: 4%;
+    width: 60%;
+      
   }
 }
 
