@@ -1,12 +1,15 @@
 <template>
 <div>
-    <div class="box" v-for="info in infoData" v-bind:key="info.name">
+    <div class="" v-for="info in infoData" v-bind:key="info.name">
+        <div class="boxes">
         <h2>{{info.name}}</h2>
         <br>
         <img class="logo" v-bind:src="info.url" alte="hello">
         <br>
         <h5>{{info.text}}</h5>
+        </div>
     </div>
+    
 </div>
 
 </template>
@@ -22,14 +25,14 @@ export default {
 </script>
 
 <style scoped>
-.box{
+.boxes{
     background-color: white;
     border-radius: 25px;
     width: 70%;
     height: 30%;
     padding: 2%;
     text-align: center;
-    margin: auto;
+    margin:auto;
     margin-bottom: 2%;
     
 }
@@ -39,8 +42,16 @@ export default {
 .logo{
     width: 10%
 }
+
+.boxes:hover{
+    transition: background-color 0.5s ease;
+    background-color: rgba(62, 160, 252, 0.945);
+  
+    
+}
+
 @media only screen and (max-width: 768px) {
-    .box{
+    .boxes{
     margin-bottom: 4%;
     width: 100%;
     }

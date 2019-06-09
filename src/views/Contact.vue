@@ -41,9 +41,6 @@ export default {
 <style scoped>
 
 @media only screen and (max-width: 768px) {
-    .content{
-        margin-top: 1%;
-    }
     .item{
         width: 700%
     }
