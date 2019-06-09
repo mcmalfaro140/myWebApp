@@ -6,7 +6,7 @@
         <br>
         <img class="logo" v-bind:src="info.url" alte="hello">
         <br>
-        <h5>{{info.text}}</h5>
+        <h5><a v-bind:href="info.link">{{info.text}}</a></h5>
         </div>
     </div>
     

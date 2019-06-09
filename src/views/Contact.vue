@@ -15,18 +15,21 @@ export default {
                 {
                     name: 'By Phone',
                     url: require('../assets/telephone.png'),
-                    text:'1-818-239-6835'
+                    text:'1-818-239-6835',
+                    link: 'tel:1-818-239-6835'
                     
                 },
                 {
                     name: 'By Email',
                     url: require('../assets/mail.png'),
-                    text:'mcmalfaro140@gmail.com'
+                    text:'mcmalfaro140@gmail.com',
+                    link: 'mailto:mcmalfaro140@gmail.com'
                 },
                 {
                     name: 'By Social Media',
                     url: require('../assets/insta.png'),
-                    text:'@misaelcorvera'
+                    text:'@misaelcorvera',
+                    link: 'http://www.instagram.com/misaelcorvera'
                 }
             ]
         }

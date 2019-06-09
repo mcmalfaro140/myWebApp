@@ -1,13 +1,18 @@
 <template>
 <div class="wrapper">
-  <div id="app" class="trans">
+  
+  <div id="app" >
       <Menu />
-      <div class="container">
-        <router-view/>
+      <div class="container effect">
+        <vue-page-transition name="fade-in-down">
+          <router-view/>
+        </vue-page-transition>
       </div>
     
   </div>
+  
 </div>
+
 </template>
 
 <script>
@@ -23,23 +28,6 @@ export default {
 
 <style>
 
-/* html {
-  
-  background-image: url('./assets/back.jpg');
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  height: 100vh;
-  background-attachment: fixed;
-  
- 
-}
-
-body {
-  background:rgba(0, 0, 0, 0.479); 
-  height:max-content;
- 
-} */
 body{
   background-image: url('./assets/back.jpg');
   background-position: center; 
@@ -51,7 +39,23 @@ body{
 }
 .wrapper{
   width: 100%;
+  margin:0%;
+  padding: 0%;
+  
 }
+.effect{
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .container{
   margin-top: 9%;
   

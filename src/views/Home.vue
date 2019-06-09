@@ -8,6 +8,7 @@
     <div class="text">in a fast and efficient manner.</div>
     <a class="btn btn-primary btn-lg btn-block " href="../myResume.pdf" download="MisaelCorveraResume.pdf">Download my Resume</a>
     <br>
+    <footer class="foot">MacBook Pro is a registered trademak of Apple, Inc.®</footer>
   </div>
 </template>
 
@@ -64,6 +65,12 @@ export default {
   margin-left: 10%;
   width: 45%;
     
+}
+.foot{
+  color: white;
+  margin-top: 12%;
+  margin-left: 45%;
+  font-size: 60%;
 }
 @media only screen and (max-width: 768px) {
   .myPic{
