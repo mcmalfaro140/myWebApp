@@ -1,6 +1,6 @@
 <template>
     <div class="bar">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
             <span class="d-lg-none d-xl-none">Misael Corvera</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
@@ -28,6 +28,7 @@ export default {
     font-size: 175%;
     color:white;
     font-weight: 450;
+   
                  
 }
 .bar nav{
@@ -35,16 +36,15 @@ export default {
     
     }
 .nav-text{
-   margin-right: 6%;
-    color: rgb(247, 244, 100);
+   margin-right: 10%;
+    color: rgb(255, 255, 255);
     padding: 0.5%
 }
 .nav-item:hover{
     text-decoration: none;
-    color:white;
+    color:rgb(218, 214, 30);
     font-size: 110%;
     padding: 0%;
 }
-
 
 </style>

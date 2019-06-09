@@ -1,9 +1,54 @@
 <template>
-    <div>
-        <div class="content">
+    <div class="content row">
+        <contBox class="col item" v-bind:infoData="infoData"/>
         
- here is where you can contact me
-        </div>
-       
     </div>
 </template>
+
+<script>
+import contBox from '../components/contactBox'
+
+export default {
+    data () {
+        return{
+            infoData: [
+                {
+                    name: 'By Phone',
+                    url: require('../assets/telephone.png'),
+                    text:'1-818-239-6835'
+                    
+                },
+                {
+                    name: 'By Email',
+                    url: require('../assets/mail.png'),
+                    text:'mcmalfaro140@gmail.com'
+                },
+                {
+                    name: 'By Social Media',
+                    url: require('../assets/insta.png'),
+                    text:'@misaelcorvera'
+                }
+            ]
+        }
+    },
+    components:{
+        contBox
+    }
+    
+}
+</script>
+
+<style scoped>
+
+@media only screen and (max-width: 768px) {
+    .content{
+        margin-top: 1%;
+    }
+    .item{
+        width: 700%
+    }
+}
+
+</style>
+
+
