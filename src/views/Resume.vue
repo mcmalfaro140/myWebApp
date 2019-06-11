@@ -19,6 +19,14 @@
 .downloadBtn{
     margin-left: 25%
 }
-
+.content{
+        margin-top: 20%;
+}
+@media only screen and (max-width: 768px) {
+    .btn{
+        margin-left: 13%;
+    }
+    
+}
 
 </style>

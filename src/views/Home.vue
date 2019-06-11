@@ -75,15 +75,15 @@ export default {
 @media only screen and (max-width: 768px) {
   .myPic{
     width: 45%;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-top: 5%;
     border-radius: 50%;
     border:  2px solid black;
     margin-bottom: 30%;
   }
   .hi{
-    margin-left: 15%;
-    font-size: 500%;
+    margin-left: 10%;
+    font-size: 400%;
 
   }
   .name{
@@ -93,15 +93,25 @@ export default {
   
   .btn{
     margin-top: 5%;
-    width: 60%;
-    margin-left: 15%;
+    width: 75%;
+    margin-left: 10%;
+    font-size: 105%;
       
+  }
+  .text{
+    margin-left: 10%
+  }
+  .home{
+    margin-top: 20%;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .hi{
     margin-top: -35%;
+  }
+  .foot{
+    margin-left: 15%;
   }
 }
 

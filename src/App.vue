@@ -69,10 +69,8 @@ body{
     text-align: center;
     
 }
-@media only screen and (max-width: 768px) {
-    .content{
-        margin-top: 15%;
-    }
+@media only screen and (min-width: 768px) {
+   
     
 }
 

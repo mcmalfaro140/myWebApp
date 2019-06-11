@@ -1,29 +1,11 @@
-# myweb
+# My Website
 
-## Project setup
+## By Misael Corvera
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Trying to develop my first personal website.
 ```
 
-### Compiles and minifies for production
+### Technology use
 ```
-npm run build
+-Vue UI
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

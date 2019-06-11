@@ -24,6 +24,9 @@
     .git{
         font-size: 125%;
     }
+    .content{
+        margin-top: 20%;
+    }
     
 }
 </style>

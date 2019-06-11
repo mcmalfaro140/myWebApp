@@ -47,6 +47,9 @@ export default {
     .item{
         width: 700%
     }
+    .content{
+        margin-top: 20%;
+    }
 }
 
 </style>

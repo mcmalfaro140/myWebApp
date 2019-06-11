@@ -1,7 +1,7 @@
 <template>
     <div class="bar">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-            <span class="d-lg-none d-xl-none">Misael Corvera</span>
+            <span class="d-lg-none d-xl-none myName">Misael Corvera</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
             </button>
@@ -46,5 +46,9 @@ export default {
     font-size: 110%;
     padding: 0%;
 }
-
+@media only screen and (max-width: 768px) {
+    .myName{
+        font-size: 70%;
+    }
+}
 </style>
