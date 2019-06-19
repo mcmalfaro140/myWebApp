@@ -1,17 +1,73 @@
 <template>
 <div>
     <div class="content">
-        Coming Soon...
-       
+        <project class="col item" v-bind:infoData="infoData"/>
+        
     </div>
     <a class="git btn-primary btn-lg btn-block " href="https://github.com/mcmalfaro140" target="_blank">My GitHub Account</a>
     
 </div>
 </template>
+<script>
+import project from '../components/project'
+
+export default {
+    data () {
+        return{
+            infoData: [
+                {
+                    name: 'WeatherApp',
+                    url: require('../assets/weatherApp.png'),
+                    description:'This single page web application display the weather by letting the user input a location. It uses the APIXU API. It is integrated in a node module to make JSON request to the API and manipulates DOM elements to display the answer.',
+                    link: 'http://misaelweather.netlify.com',
+                    repo: 'https://github.com/mcmalfaro140/weatherApp',
+                    tech: [
+                        {tec : 'JavaScript'},
+                        {tec : 'Node.js'},
+                        {tec : 'Apixu API'},
+                        {tec : 'HTML/CSS'}
+                    ],
+                    learned: [
+                        {point : 'To manipulate DOM elements with JavaScript.'},
+                        {point : 'To creade node modules and integrate technologies like browserify and watchify to import multiple JavaScript in one file.'},
+                        {point : 'To interpretate JSON response from an API.'},
+                        {point : 'To desing for movil devices first and then create different media queries for different devices.'}
+                    ]
+                    
+                },
+                {
+                    name: 'My Website',
+                    url: require('../assets/website.png'),
+                    description:'My own website created to show potential employers my abilities as a junior web desing. It was implemented with the integration of VUE CLI and vue-route to allow multiple pages.',
+                    link: 'http://misaelcorvera.netlify.com',
+                    repo: 'https://github.com/mcmalfaro140/myWebApp',
+                    tech:[
+                        {tec: 'VUE.js'},
+                        {tec: 'Bootstrap'},
+                        {tec: 'CSS'}
+                    ],
+                    learned: [
+                        {point: 'To integrate different dependencies from vue to give a better overall user experiences.'},
+                        {point: 'To embed pdf files to allow users to see my resume.'},
+                        {point: 'To create different media queries.'},
+                        {point: 'To design a website by combining colors and shapes, as well as pictures to get the user attention.'}
+                    ]
+                    
+                }
+            ]
+        }
+    },
+    components:{
+        project
+    }
+}
+</script>
+
+
 <style scoped>
 .content{
     color: black;
-    font-size: 400%
+    
 }
 .git{
     text-align: center;

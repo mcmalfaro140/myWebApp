@@ -44,5 +44,17 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "## By Misael Corvera ``` Trying to develop my first personal website. ```",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcmalfaro140/myWebApp.git"
+  },
+  "author": "Misael Corvera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcmalfaro140/myWebApp/issues"
+  },
+  "homepage": "https://github.com/mcmalfaro140/myWebApp#readme"
 }
