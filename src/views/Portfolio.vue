@@ -18,7 +18,7 @@ export default {
                 {
                     name: 'WeatherApp',
                     url: require('../assets/weatherApp.png'),
-                    description:'This single page web application display the weather by letting the user input a location. It uses the APIXU API. It is integrated in a node module to make JSON request to the API and manipulates DOM elements to display the answer.',
+                    description:'This single page web application displays the weather by letting the user input a location. It uses the APIXU API. It is integrated in a node module to make JSON request to the API and manipulates DOM elements to display the weather.',
                     link: 'http://misaelweather.netlify.com',
                     repo: 'https://github.com/mcmalfaro140/weatherApp',
                     tech: [
@@ -36,6 +36,44 @@ export default {
                     
                 },
                 {
+                    name: 'Todo List',
+                    url: require('../assets/todo.png'),
+                    description:'Single web application created with the react cli to add or delete task from a database.',
+                    link: 'http://misaeltodos.netlify.com',
+                    repo: 'https://github.com/mcmalfaro140/myTodos',
+                    tech: [
+                        {tec : 'JSX'},
+                        {tec : 'Node.js'},
+                        {tec : 'React.js'},
+                        {tec : 'Bootsrap'}
+                    ],
+                    learned: [
+                        {point : 'To develop web applications with React and its environment.'},
+                        {point : 'To interpretate JSON response to my state.'},
+                        {point : 'To develop a Full stack application.'}
+                    ]
+                    
+                },
+                {
+                    name: 'Todo List Server',
+                    url: require('../assets/server.png'),
+                    description:'Restful API desing to get or modify data from my database. It is used as the backend for my Todo List application.',
+                    link: 'http://todosmisael.herokuapp.com',
+                    repo: 'https://github.com/mcmalfaro140/todo_server',
+                    tech: [
+                        {tec : 'Express.js'},
+                        {tec : 'Node.js'},
+                        {tec : 'mySql'},
+                        
+                    ],
+                    learned: [
+                        {point : 'To develop the backend for my application.'},
+                        {point : 'To connect to my database and modify it.'},
+                        {point : 'To create routes with express.'}
+                    ]
+                    
+                },
+                {
                     name: 'My Website',
                     url: require('../assets/website.png'),
                     description:'My own website created to show potential employers my abilities as a junior web desing. It was implemented with the integration of VUE CLI and vue-route to allow multiple pages.',
@@ -47,7 +85,7 @@ export default {
                         {tec: 'CSS'}
                     ],
                     learned: [
-                        {point: 'To integrate different dependencies from vue to give a better overall user experiences.'},
+                        {point: 'To integrate different dependencies from vue to give a better overall user experience.'},
                         {point: 'To embed pdf files to allow users to see my resume.'},
                         {point: 'To create different media queries.'},
                         {point: 'To design a website by combining colors and shapes, as well as pictures to get the user attention.'}
