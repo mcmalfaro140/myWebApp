@@ -16,6 +16,42 @@ export default {
         return{
             infoData: [
                 {
+                    name: 'AWS Resources Dashboard',
+                    url: require('../assets/dashboard.png'),
+                    description:'Web application built to monitor Amazon webservices resources.',
+                    link: 'https://awsdashboard.netlify.com',
+                    repo: 'https://github.com/mcmalfaro140/ccc_dashboard_react',
+                    tech: [
+                        {tec : 'React.js'},
+                        {tec : 'AWS SDK'},
+                        {tec : 'JavaScript'},
+                        {tec : 'Chart.js'},
+                        {tec : 'reactstrap'}
+                    ],
+                    learned: [
+                        {point : 'To use Amazon webservices like CloudWatch and EC2.'},
+                        {point : 'To work as part of a small team.'},
+                        {point : 'To create reusable components.'}
+                    ]
+                    
+                },
+                {
+                    name: 'EventBrite Copy',
+                    url: require('../assets/event.png'),
+                    description:'Web Application that allows users to buy or post tickets for events.',
+                    link: 'https://eventbrite140.netlify.com',
+                    repo: 'https://github.com/mcmalfaro140/EventBrite',
+                    tech: [
+                        {tec : 'React.js'},
+                        {tec : 'MySql'}
+                    ],
+                    learned: [
+                        {point : 'To create reusable components.'},
+                        {point : 'Make asynchronous calls to the backend to later display data.'},
+                    ]
+                    
+                },
+                {
                     name: 'WeatherApp',
                     url: require('../assets/weatherApp.png'),
                     description:'This single page web application displays the weather by letting the user input a location. It uses the APIXU API. It is integrated in a node module to make JSON request to the API and manipulates DOM elements to display the weather.',
@@ -45,31 +81,15 @@ export default {
                         {tec : 'JSX'},
                         {tec : 'Node.js'},
                         {tec : 'React.js'},
-                        {tec : 'Bootsrap'}
+                        {tec : 'Bootsrap'},
+                        {tec : 'Express.js'},
+                        {tec : 'Node.js'},
+                        {tec : 'mySql'},
                     ],
                     learned: [
                         {point : 'To develop web applications with React and its environment.'},
                         {point : 'To interpretate JSON response to my state.'},
                         {point : 'To develop a Full stack application.'}
-                    ]
-                    
-                },
-                {
-                    name: 'Todo List Server',
-                    url: require('../assets/server.png'),
-                    description:'Restful API desing to get or modify data from my database. It is used as the backend for my Todo List application.',
-                    link: 'http://todosmisael.herokuapp.com',
-                    repo: 'https://github.com/mcmalfaro140/todo_server',
-                    tech: [
-                        {tec : 'Express.js'},
-                        {tec : 'Node.js'},
-                        {tec : 'mySql'},
-                        
-                    ],
-                    learned: [
-                        {point : 'To develop the backend for my application.'},
-                        {point : 'To connect to my database and modify it.'},
-                        {point : 'To create routes with express.'}
                     ]
                     
                 },
